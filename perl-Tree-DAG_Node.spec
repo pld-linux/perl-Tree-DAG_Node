@@ -38,7 +38,7 @@ lub nadanie wêz³owi dwóch przodków).
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
