@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	DAG_Node
-Summary:	Tree::DAG_Node perl module
-Summary(pl):	Modu³ perla Tree::DAG_Node
+Summary:	Tree::DAG_Node - (super)class for representing nodes in a tree
 Name:		perl-Tree-DAG_Node
 Version:	1.04
 Release:	5
@@ -15,10 +14,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tree::DAG_Node perl module.
-
-%description -l pl
-Modu³ perla Tree::DAG_Node.
+This class encapsulates/makes/manipulates objects that represent nodes
+in a tree structure. The tree structure is not an object itself, but is
+emergent from the linkages you create between nodes.  This class provides
+the methods for making linkages that can be used to build up a tree,
+while preventing you from ever making any kinds of linkages which are not
+allowed in a tree (such as having a node be its own mother or ancestor,
+or having a node have two mothers).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
