@@ -25,7 +25,7 @@ Modu³ perla Tree-DAG_Node.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
