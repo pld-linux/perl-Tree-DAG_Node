@@ -9,7 +9,7 @@ Summary:	Tree::DAG_Node - (super)class for representing nodes in a tree
 Summary(pl):	Tree::DAG_Node - (nad)klasa do reprezentowania wêz³ów w drzewie
 Name:		perl-Tree-DAG_Node
 Version:	1.04
-Release:	8
+Release:	9
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
