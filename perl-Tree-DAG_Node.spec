@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	DAG_Node
-Summary:	Tree-DAG_Node perl module
-Summary(pl):	Modu³ perla Tree-DAG_Node
+Summary:	Tree::DAG_Node perl module
+Summary(pl):	Modu³ perla Tree::DAG_Node
 Name:		perl-Tree-DAG_Node
 Version:	1.04
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tree-DAG_Node perl module.
+Tree::DAG_Node perl module.
 
 %description -l pl
-Modu³ perla Tree-DAG_Node.
+Modu³ perla Tree::DAG_Node.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
