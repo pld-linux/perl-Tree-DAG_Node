@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	DAG_Node
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tree-DAG_Node perl module
 Summary(pl):	Modu³ perla Tree-DAG_Node
 Name:		perl-Tree-DAG_Node
 Version:	1.04
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Tree-DAG_Node perl module.
 Modu³ perla Tree-DAG_Node.
 
 %prep
-%setup -q -n Tree-DAG_Node-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
