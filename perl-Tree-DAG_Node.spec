@@ -3,7 +3,7 @@ Summary:	Tree-DAG_Node perl module
 Summary(pl):	Modu³ perla Tree-DAG_Node
 Name:		perl-Tree-DAG_Node
 Version:	1.04
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
