@@ -4,7 +4,7 @@
 Summary:	Tree::DAG_Node - (super)class for representing nodes in a tree
 Name:		perl-Tree-DAG_Node
 Version:	1.04
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
