@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tree
-%define	pnam	DAG_Node
+%define		pdir	Tree
+%define		pnam	DAG_Node
 Summary:	Tree::DAG_Node - (super)class for representing nodes in a tree
 Summary(pl):	Tree::DAG_Node - (nad)klasa do reprezentowania wêz³ów w drzewie
 Name:		perl-Tree-DAG_Node
