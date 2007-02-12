@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	DAG_Node
 Summary:	Tree::DAG_Node - (super)class for representing nodes in a tree
-Summary(pl):	Tree::DAG_Node - (nad)klasa do reprezentowania wêz³ów w drzewie
+Summary(pl.UTF-8):   Tree::DAG_Node - (nad)klasa do reprezentowania wÄ™zÅ‚Ã³w w drzewie
 Name:		perl-Tree-DAG_Node
 Version:	1.05
 Release:	1
@@ -30,14 +30,14 @@ a tree, while preventing you from ever making any kinds of linkages
 which are not allowed in a tree (such as having a node be its own
 mother or ancestor, or having a node have two mothers).
 
-%description -l pl
-Ta klasa obudowuje, tworzy i obrabia obiekty, które reprezentuj± wêz³y
+%description -l pl.UTF-8
+Ta klasa obudowuje, tworzy i obrabia obiekty, ktÃ³re reprezentujÄ… wÄ™zÅ‚y
 w strukturze drzewiastej. Struktura drzewiasta jako taka nie jest
-obiektem, ale wy³ania siê z po³±czeñ tworzonych pomiêdzy wêz³ami. Ta
-klasa udostêpnia metody do tworzenia po³±czeñ, które mog± byæ u¿ywane
-do zbudowania drzewa, nie dopuszczaj±c na zrobienie po³±czeñ nie
-dozwolonych w drzewie (takich jak po³±czenie wêz³a z jego przodkiem,
-lub nadanie wêz³owi dwóch przodków).
+obiektem, ale wyÅ‚ania siÄ™ z poÅ‚Ä…czeÅ„ tworzonych pomiÄ™dzy wÄ™zÅ‚ami. Ta
+klasa udostÄ™pnia metody do tworzenia poÅ‚Ä…czeÅ„, ktÃ³re mogÄ… byÄ‡ uÅ¼ywane
+do zbudowania drzewa, nie dopuszczajÄ…c na zrobienie poÅ‚Ä…czeÅ„ nie
+dozwolonych w drzewie (takich jak poÅ‚Ä…czenie wÄ™zÅ‚a z jego przodkiem,
+lub nadanie wÄ™zÅ‚owi dwÃ³ch przodkÃ³w).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
