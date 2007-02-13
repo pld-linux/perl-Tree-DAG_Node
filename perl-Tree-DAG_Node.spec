@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	DAG_Node
 Summary:	Tree::DAG_Node - (super)class for representing nodes in a tree
-Summary(pl.UTF-8):   Tree::DAG_Node - (nad)klasa do reprezentowania węzłów w drzewie
+Summary(pl.UTF-8):	Tree::DAG_Node - (nad)klasa do reprezentowania węzłów w drzewie
 Name:		perl-Tree-DAG_Node
 Version:	1.05
 Release:	1
