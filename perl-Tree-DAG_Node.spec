@@ -8,15 +8,21 @@
 Summary:	Tree::DAG_Node - (super)class for representing nodes in a tree
 Summary(pl.UTF-8):	Tree::DAG_Node - (nad)klasa do reprezentowania węzłów w drzewie
 Name:		perl-Tree-DAG_Node
-Version:	1.06
+Version:	1.27
 Release:	1
-# same as perl
-License:	GPL v1+ or Artistic
+License:	Artistic v2.0
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Tree/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3b006f128bd1d8961fc57c466ffa05f2
+Source0:	http://www.cpan.org/modules/by-module/Tree/%{pdir}-%{pnam}-%{version}.tgz
+# Source0-md5:	6697c3e746a146e74ae2ba1727608200
 URL:		http://search.cpan.org/dist/Tree-DAG_Node/
-BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-devel >= 1:5.8.1
+%if %{with tests}
+BuildRequires:	perl(File::Spec) >= 3.40
+BuildRequires:	perl-File-Slurp-Tiny >= 0.003
+BuildRequires:	perl-File-Temp >= 0.19
+BuildRequires:	perl-Test-Simple >= 1.001_014
+BuildRequires:	perl-Test-Pod >= 1.48
+%endif
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -60,6 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README
+%doc Changes README
 %{perl_vendorlib}/Tree/DAG_Node.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Tree::DAG_Node.3pm*
