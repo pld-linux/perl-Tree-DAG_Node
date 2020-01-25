@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Tree
 %define		pnam	DAG_Node
 Summary:	Tree::DAG_Node - (super)class for representing nodes in a tree
